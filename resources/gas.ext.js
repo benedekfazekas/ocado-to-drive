@@ -8037,6 +8037,12 @@ _Drive.DriveApp.prototype.getFolderById = function(id) {};
 _Drive.DriveApp.prototype.getFolders = function() {};
 
 /**
+ * @param {string} name
+ * @return {_Drive.FolderIterator}
+ */
+_Drive.DriveApp.prototype.getFoldersByName = function(name) {};
+
+/**
  * @return {_Drive.Folder}
  */
 _Drive.DriveApp.prototype.getRootFolder = function() {};

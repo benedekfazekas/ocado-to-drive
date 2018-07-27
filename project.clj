@@ -17,4 +17,5 @@
                                  :pretty-print false
                                  :externs ["resources/gas.ext.js"]
                                  :foreign-libs [{:file "src/entry_points.js"
-                                                 :provides ["ocado-to-drive.entry-points"]}]}}}})
+                                                 :file-min "src/entry_points.js"
+                                                 :provides ["ocadotodrive.entrypoints"]}]}}}})
