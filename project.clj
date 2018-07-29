@@ -8,6 +8,7 @@
   :plugins [[lein-cljsbuild "1.1.7"]]
 
   :clean-targets [:target-path :compile-path "export"]
+  :profiles {:dev {:dependencies [[cider/piggieback "0.3.6"]]}}
   :cljsbuild {:builds
               {:main {:source-paths ["src"]
                       :compiler {:main ocado-to-drive.core

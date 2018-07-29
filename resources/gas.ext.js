@@ -16748,6 +16748,11 @@ _Base.Session.prototype.getEffectiveUser = function() {};
  */
 _Base.Session.prototype.getTimeZone = function() {};
 
+/**
+ * @return {string}
+ */
+_Base.Session.prototype.getScriptTimeZone = function() {};
+
 
 /**
  * @type {_Base.Session}
