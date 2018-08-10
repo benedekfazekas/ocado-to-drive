@@ -11208,6 +11208,11 @@ _Gmail.GmailAttachment.prototype.getBytes = function() {};
 _Gmail.GmailAttachment.prototype.getContentType = function() {};
 
 /**
+ * @return {string}
+ */
+_Gmail.GmailAttachment.prototype.getDataAsString = function() {};
+
+/**
  * @param {string=} charset
  * @return {string}
  */
